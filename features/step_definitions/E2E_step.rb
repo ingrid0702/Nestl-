@@ -1,4 +1,5 @@
 Dado('que acesso a aplicação') do   
+   sleep 5
    @utils.acessar_aplicacao 
    sleep 5
 

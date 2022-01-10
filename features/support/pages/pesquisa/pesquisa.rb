@@ -1,5 +1,5 @@
 class PesquisaPage
-   include Capybara::DSL  
+   #include Capybara::DSL  
 
         def procurar_produto
         
