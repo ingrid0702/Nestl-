@@ -1,0 +1,27 @@
+#dados para acessar a aplicação
+
+dados_de_acesso_email: "#email"
+dados_de acesso_senha: "#pass"
+botão_acessar: "#send2"
+
+#Procurar produto e seleciona-lo ao carrinho
+
+campo_de_pesquisa: "#search"
+pesquisar: ".action.search"
+entrar_na_pagina_de_produto: "#product-item-info_16"
+
+
+# verificar apagina de carrinho
+botao_adicionar_ao_carrinho: "#product-addtocart-button"
+seleciona_quantidade: "#plusBtn"
+botao_encaminhar_ao_checkout: ".action.primary.checkout"
+
+# Elementos da pagina de checkout (endereço)
+botão_entregue_nesse_endereço: ".action.action-select-shipping-item"
+selecionar_frete: ".table-checkout-shipping-method input[type='radio'[1]"
+botão_continuar: ".button.action.continue.primary"
+selecionar_forma_de_pagamento: ".payment-method input[type='radio'][0]"
+botão_finalizar_compra: ".billing-address-same-as-shipping-block.field.choice input[type='checkbox']"
+
+
+
