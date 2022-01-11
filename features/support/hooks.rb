@@ -1,11 +1,12 @@
 Before do
+
     current_window.maximize
 
     @login = LoginPage.new
-    @pesquisa = PasquisaPage.new
+    @pesquisa = PesquisaPage.new
     @produto = ProdutoPage.new
     @carrinho = CarrinhoPage.new
-    @chekout = ChekoutPage.new
+    @checkout = CheckoutPage.new
     @utils = Utils.new   
 end
 After do |scenario|

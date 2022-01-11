@@ -1,19 +1,17 @@
 Dado('que acesso a aplicação') do   
-   sleep 5
    @utils.acessar_aplicacao 
-   sleep 5
-
+   sleep 8
 end
 
 Quando('faço login com os dados de acesso') do
    @login.dados_de_acesso
+  
 end
 
 Quando('pesquiso um produto e adiciono  ao carrinho') do
    @pesquisa.procurar_produto
    @produto.selecionar_produto
    click_link_or_button "Carrinho de compras"
-     
 end
 
 Então('encaminho para o checkout e finalizo o pedido') do
