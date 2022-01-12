@@ -1,5 +1,4 @@
 Before do
-
     current_window.maximize
 
     @login = LoginPage.new
